@@ -1,0 +1,13 @@
+server:
+  port: 8771
+  
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    serviceUrl:
+      homePageUrl: https://${eureka.instance.hostname}/
+      
+spring:
+  application:
+    name: helloService
