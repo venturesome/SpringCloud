@@ -28,7 +28,7 @@ repositories {
 
 
 ext {
-	springCloudVersion = 'Dalston.RC1'
+	springCloudVersion = 'Dalston.RC1' //springCloudVersion = 'Edgware.BUILD-SNAPSHOT'
 }
 
 dependencies {
